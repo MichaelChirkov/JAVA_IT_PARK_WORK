@@ -1,7 +1,7 @@
 class Program{
 	public static void fun(int x[]){
 		int temp=0;
-		for (int i=x.length;i>0;i--){
+		for (int i=x.length-1;i>0;i--){
 			for (int j=0;j<x.length-1;j++){
 				if(x[j]>x[j+1]){
 					temp=x[j];
