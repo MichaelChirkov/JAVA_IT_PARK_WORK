@@ -2,9 +2,6 @@
  * Created by Michael on 29.03.2017.
  */
 import java.sql.*;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.util.Scanner;
 
 public class exampleDB {
