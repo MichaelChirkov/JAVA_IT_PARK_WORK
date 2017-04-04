@@ -43,16 +43,29 @@ public class ArrayList implements List {
         }
     }
 
-    @Override
-    public boolean insert(int element, int index) {
-        if ((index < MAX_SIZE) && (index >= 0)){
-            for (int i = index; i < elements.length-1; i++){
 
+    public boolean insert(int element, int index) {
+        if ((index < MAX_SIZE) && (index >= 0) &&(count <= MAX_SIZE) ) {
+            if (index != elements.length - 1) {
+                for (int i = elements.length - 1; i > index; i--) {
+                    elements[i] = elements[i - 1];
+                }
+                elements[index] = element;
+            }
+            if (index == elements.length - 1) {
+                elements[index] = element;
+            }
+            return true;
+        }
+
+        else {
+            System.err.println("Вставка элемента массива не была выполнена");
+            return false;
         }
     }
 
     @Override
-    public boolean removeByIndex(int index) {
+    public boolean removeByIndex(int index){
         if (index < MAX_SIZE) {
             for (int i = index; i < elements.length - 1; i++) {
                 elements[i] = elements[i + 1];
