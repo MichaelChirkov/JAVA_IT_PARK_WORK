@@ -14,9 +14,9 @@ public class Program {
         bmwM3.parking();
         nissanAlmera.parking();
         silverBus.parking();
-        System.out.println("На парковке " + ParkingPlace.freePlaces() + " свободных мест");
+        ParkingPlace.freePlaces();
         bmwM3.unparking();
-        System.out.println("На парковке " + ParkingPlace.freePlaces() + " свободных мест");
+        ParkingPlace.freePlaces();
         aist.parking();
 
 

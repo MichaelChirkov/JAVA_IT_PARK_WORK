@@ -10,8 +10,8 @@ public class ParkingPlace {
         if (countPlace < MAX_SIZE) {
             for (int i = 0; i < MAX_SIZE; i++) {
                 if (parkingPlace[i] == null) {
-                    parkingPlace[countPlace] = transportNumber;
-                    System.out.println("Транспорт c гос номером " + transportNumber + " припарковался на месте с номером " + countPlace);
+                    parkingPlace[i] = transportNumber;
+                    System.out.println("Парковка: Транспорт c гос номером " + transportNumber + " припарковался на месте с номером " + i);
                     countPlace++;
                     break;
                 }
@@ -26,15 +26,16 @@ public class ParkingPlace {
 
         for (int i = 0; i < MAX_SIZE; i++) {
             if (transportNumber == parkingPlace[i]) {
-                System.out.println("Транспорт с гос номером " + transportNumber + "уезжает с парковочного места " + i);
+                System.out.println("Парковка: Транспорт с гос номером " + transportNumber + "уезжает с парковочного места " + i);
                 parkingPlace[i] = null;
                 countPlace--;
             }
         }
     }
 
-    static int freePlaces(){
-        return MAX_SIZE - countPlace + 1;
+    static void freePlaces(){
+        int count = MAX_SIZE - countPlace;
+        System.out.println("Парковка: На парковке " + count + " свободных мест из " + MAX_SIZE);
     }
 }
 
