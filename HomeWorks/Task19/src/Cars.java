@@ -15,16 +15,14 @@ public class Cars extends  Transport implements ParkingObject {
         return this.modelName;
     }
 
-    public static void parking(String[] place, String numberOfTransport){
-        for ( int i = 0; i < place.length; i++){
-            if (place[i] == null){
-                place[i] = numberOfTransport;
-                System.out.println("Машина " +  );
-            }
-        }
+    public void parking(){
+        System.out.println("Я приехал на " + this.getName() + ". Паркуюсь!!!");
+        ParkingPlace.parking(this.getNumber());
     }
 
     public void unparking() {
+        System.out.println("Хочу уехать");
+        ParkingPlace.unparking(this.getNumber());
 
     }
 }

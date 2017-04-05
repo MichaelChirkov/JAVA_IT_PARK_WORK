@@ -14,11 +14,14 @@ public class Buses extends Transport implements ParkingObject {
         return this.modelName;
     }
 
-    public void parking() {
-
+    public void parking(){
+        System.out.println("Я приехал на " + this.getName() + ". Паркуюсь!!!");
+        ParkingPlace.parking(this.getNumber());
     }
 
     public void unparking() {
+        System.out.println("Хочу уехать");
+        ParkingPlace.unparking(this.getNumber());
 
     }
 }

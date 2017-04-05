@@ -16,6 +16,7 @@ public class Bicycle extends Transport {
     }
 
     public void parking() {
+        System.out.println("Я велосипед, я не умею парковаться :-)");
 
     }
 

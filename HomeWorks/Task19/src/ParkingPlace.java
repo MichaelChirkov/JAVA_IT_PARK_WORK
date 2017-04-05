@@ -3,26 +3,40 @@
  */
 public class ParkingPlace {
     static final int MAX_SIZE = 150;
-    String[] parkingplace = new String[MAX_SIZE];
+    static String[] parkingPlace = new String[MAX_SIZE];
+    static int countPlace = 0;
 
-
-
-        public static void main (String[] args) {
-
-            Cars bmwM3 = new Cars("BMWM3", "к655мп");
-            Cars nissanAlmera = new Cars("Nissan Almera", "а523мр");
-
-            Buses goldenBus = new Buses("Golden Bus", "п654ар");
-            Buses silverBus = new Buses("Silver bus", "м678ро");
-
-            Transport transport[] = {bmwM3,
-                    nissanAlmera,
-                    goldenBus,
-                    silverBus
-            };
-
-
+    static void parking(String transportNumber) {
+        if (countPlace < MAX_SIZE) {
+            for (int i = 0; i < MAX_SIZE; i++) {
+                if (parkingPlace[i] == null) {
+                    parkingPlace[countPlace] = transportNumber;
+                    System.out.println("Транспорт c гос номером " + transportNumber + " припарковался на месте с номером " + countPlace);
+                    countPlace++;
+                    break;
+                }
+            }
         }
+        else {
+            System.out.println("Все места на парковке заняты");
+        }
+    }
 
+    static void unparking(String transportNumber) {
 
+        for (int i = 0; i < MAX_SIZE; i++) {
+            if (transportNumber == parkingPlace[i]) {
+                System.out.println("Транспорт с гос номером " + transportNumber + "уезжает с парковочного места " + i);
+                parkingPlace[i] = null;
+                countPlace--;
+            }
+        }
+    }
+
+    static int freePlaces(){
+        return MAX_SIZE - countPlace + 1;
+    }
 }
+
+
+
