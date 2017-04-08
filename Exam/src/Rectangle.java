@@ -15,16 +15,6 @@ public class Rectangle extends Figures implements figure {
     public int getB() {
         return this.b;
     }
-    public boolean equals(Object obj) {
-
-        if (obj instanceof Rectangle) {
-
-            Rectangle clone = (Rectangle) obj;
-
-            return (this.area() == clone.area() && this.perimeter() == clone.perimeter());
-        }
-        else return false;
-    }
 
     @Override
     public double area() {
