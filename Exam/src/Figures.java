@@ -1,7 +1,7 @@
 /**
  * Created by Student13 on 08.04.2017.
  */
-public class Figures {
+public abstract class Figures implements figure {
     protected int a,b,c;
 
     public Figures(int a) {
@@ -29,6 +29,17 @@ public class Figures {
 
     public int getC() {
         return c;
+    }
+
+    public boolean equals(Object obj) {
+
+        if (obj instanceof Figures) {
+
+            Figures clone = (Figures) obj;
+
+            return (this.area() == clone.area() && this.perimeter() == clone.perimeter());
+        }
+        else return false;
     }
 
 
