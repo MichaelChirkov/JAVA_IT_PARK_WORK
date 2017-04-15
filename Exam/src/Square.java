@@ -6,17 +6,17 @@ public class Square extends Figures implements figure {
         super(a);
     }
 
-    @Override
+
     public int getA() {
         return this.a;
     }
 
-    @Override
+
     public double area() {
         return this.a*this.a;
     }
 
-    @Override
+
     public double perimeter() {
         return 4*this.a;
     }

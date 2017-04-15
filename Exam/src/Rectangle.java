@@ -6,22 +6,22 @@ public class Rectangle extends Figures implements figure {
         super(a, b);
     }
 
-    @Override
+
     public int getA() {
         return this.a;
     }
 
-    @Override
+
     public int getB() {
         return this.b;
     }
 
-    @Override
+
     public double area() {
         return (double)(this.a*this.b) ;
     }
 
-    @Override
+
     public double perimeter() {
         return this.a*2 + this.b*2;
     }

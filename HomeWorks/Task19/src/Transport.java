@@ -15,4 +15,17 @@ public abstract class Transport implements ParkingObject {
         this.number = number;
     }
 
+  /*  public boolean equals(Object object) {
+        if (object != null && object instanceof Transport) {
+            Transport that = (Transport)object;
+            return this.age == that.age
+                    && this.height == that.height
+                    && this.name == that.name;
+        } return false;
+    } */
+
+    public String toString() {
+        return this.modelName;
+    }
+
 }
