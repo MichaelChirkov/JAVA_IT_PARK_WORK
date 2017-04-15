@@ -2,57 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ebade92-1ee8-4c48-b22d-02dfaabf5ebb" name="Default" comment="add chanhes into main">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Hello_World/Program.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Hello_World/Program.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Sequences/Program.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Sequences/Program.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task1/Program.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task1/Program.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task1/Program2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task2/Program.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task3/Program.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task3/Program.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task4/Program.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task4/Program.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task5/Program.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task5/Program.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task5/RationalNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task6/Program.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task6/Program.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task6/Sort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task6/Sort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task7/Task8.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task7/out/production/Task8/Humans.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task7/out/production/Task8/Mutants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task7/out/production/Task8/Program.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task7/out/production/Task8/SuperHero.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task7/src/Humans.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task7/src/Mutants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task7/src/Program.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task7/src/SuperHero.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/Task8.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/out/production/Task8/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/out/production/Task8/PasswordException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/out/production/Task8/Verificator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/src/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/src/PasswordException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ClassWorks/Task8/src/Verificator.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Exam/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Exam/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../ClassWorks/Task10/Task10.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../ClassWorks/Task10/output.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../ClassWorks/Task10/src/Figures.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../ClassWorks/Task10/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../ClassWorks/Task10/src/Rectangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../ClassWorks/Task10/src/Square.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../ClassWorks/Task10/src/Triangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Exam/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Exam/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Exam/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Exam/src/Program.java" afterPath="$PROJECT_DIR$/../../Exam/src/Program.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Exam/src/Rectangle.java" afterPath="$PROJECT_DIR$/../../Exam/src/Rectangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Exam/src/Square.java" afterPath="$PROJECT_DIR$/../../Exam/src/Square.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Exam/src/Triangle.java" afterPath="$PROJECT_DIR$/../../Exam/src/Triangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Bicycle.java" afterPath="$PROJECT_DIR$/src/Bicycle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Transport.java" afterPath="$PROJECT_DIR$/src/Transport.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
