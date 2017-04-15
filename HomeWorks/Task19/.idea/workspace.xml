@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ebade92-1ee8-4c48-b22d-02dfaabf5ebb" name="Default" comment="add chanhes into main">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../ClassWorks/Task10/input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../ClassWorks/Task10/output.txt" afterPath="$PROJECT_DIR$/../../ClassWorks/Task10/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../ClassWorks/Task10/src/Main.java" afterPath="$PROJECT_DIR$/../../ClassWorks/Task10/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -573,7 +570,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33802816" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
