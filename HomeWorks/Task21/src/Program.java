@@ -5,13 +5,22 @@
 
 public class Program {
     public static int charsArrayToInteger(char chars[]){
-        String str = new String(chars);
-        int result = Integer.valueOf(str);
-        return result;
+        int temp = 0, base = 10, power;
+        for (int i = 0; i < chars.length; i++){
+            power = 1;
+            for (int j=0; j < chars.length - i -1; j++){
+                power *= base;
+            }
+            temp = temp + ((int)chars[i] - 48)*power;
+       }
+        return temp;
     }
 
     public static void main(String[] args){
         char[] charsArray = { '3', '2', '1'};
+        String str = "51";
+
         System.out.println(charsArrayToInteger(charsArray));
+
     }
 }

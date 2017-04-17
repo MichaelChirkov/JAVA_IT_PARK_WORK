@@ -22,10 +22,10 @@
   x = scanner.nextInt();
  list.add(x);
 
-  x = scanner.nextInt();
-  list.addToEnd(x);
-  x = scanner.nextInt();
-  list.addToEnd(x);
+ // x = scanner.nextInt();
+  //list.addToEnd(x);
+  //x = scanner.nextInt();
+  //list.addToEnd(x);
 
   list.printElements();
   /* Блок для проверки функции insert(element, index);
