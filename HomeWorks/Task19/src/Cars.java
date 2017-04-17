@@ -16,13 +16,13 @@ public class Cars extends  Transport implements ParkingObject {
     }
 
     public void parking(){
-        System.out.println("Водитель: Я приехал на " + this.getName() + ". Паркуюсь!!!");
-        ParkingPlace.parking(this.getNumber());
+        System.out.println("Водитель: Я приехал на " + this.getName() + " с гос. номером " + getNumber());
+
     }
 
     public void unparking() {
-        System.out.println("Водитель: Хочу уехать");
-        ParkingPlace.unparking(this.getNumber());
+        System.out.println("Водитель: Я уезжаю на " + this.getName() + " с гос номером " + getNumber());
+
 
     }
 }
