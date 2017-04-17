@@ -9,6 +9,7 @@ public class Program1 {
         Buses goldenBus = new Buses("Golden Bus", "п654ар");
         Buses silverBus = new Buses("Silver bus", "м678ро");
         Bicycle aist = new Bicycle("Аист");
+        Cars bmw = new Cars("BMWM3", "к655мп");
 
         ParkingPlace1 parkingPlace = new ParkingPlace1();
         parkingPlace.parking(bmwM3);
@@ -17,6 +18,11 @@ public class Program1 {
         parkingPlace.parking(goldenBus);
         parkingPlace.unparking("fdfs88888");
         parkingPlace.unparking("fdfs8");
-
+        if (bmwM3.equals(bmw)){
+            System.out.println("Машины одинаковы");
+        }
+        else {
+            System.out.println("Машины разные");
+        }
     }
 }
