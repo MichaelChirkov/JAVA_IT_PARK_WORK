@@ -35,7 +35,7 @@ public class Program {
                     }
                 }
 
-
+        System.out.println("Hello");
 
 
         for ( int k = 0; k < figures.length; k++){

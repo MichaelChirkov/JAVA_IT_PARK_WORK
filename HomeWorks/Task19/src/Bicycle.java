@@ -23,5 +23,21 @@ public class Bicycle extends Transport {
     public void unparking() {
 
     }
+
+    public boolean equals(Object obj) {
+        if (obj instanceof Bicycle) {
+            Bicycle that = (Bicycle) obj;
+            return (this.modelName == that.modelName);
+        }
+        else return false;
+    }
+
+    public String toString() {
+        return "Bicycle{" +
+                "modelName='" + modelName + '\'' +
+                '}';
+    }
 }
+
+
 

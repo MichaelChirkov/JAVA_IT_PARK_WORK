@@ -14,5 +14,4 @@ public abstract class Transport implements ParkingObject {
         this.modelName = modelName;
         this.number = number;
     }
-
 }

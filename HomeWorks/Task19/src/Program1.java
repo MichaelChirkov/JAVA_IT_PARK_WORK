@@ -17,5 +17,6 @@ public class Program1 {
         parkingPlace.parking(goldenBus);
         parkingPlace.unparking("fdfs88888");
         parkingPlace.unparking("fdfs8");
+
     }
 }
