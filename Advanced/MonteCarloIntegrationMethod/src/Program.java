@@ -1,48 +1,41 @@
-﻿
- // Created by Michael on 02.04.2017.
 
-import java.util.Random;
-import java.util.Scanner;
-import java.util.Date;
+ // Created by Salakhova A. on 02.04.2017.
+
+import java.util.Random; //импортируем класс Random с помощью которого мы будем генерировать случайные числа
+import java.util.Scanner; // этот класс нужен чтобы осуществлять ввод.
+
 public class Program {
 
-   public static double function2 (double x){
-       return ( -0.5*x*x + 6*x + 1);
-   }
 
-    public static double function1 (double newArray[], int B, int A){
-        double AMOUNT = 0;
-        for (int k = 0; k < newArray.length; k++ ){
-            AMOUNT += function2(newArray[k]);
-        }
-       return (((double)(B - A))/(double)newArray.length) * AMOUNT;
-    }
-
-    public static void main (String[] args){
-        int q = 4093, w = 110101, m = 524288; // для генерации случ числа
-        Random random = new Random();
-        Scanner scanner = new Scanner(System.in);
-        int N,a,b;
+    public static void main (String[] args){ // точка входа в программу
+       
+        Random random = new Random(); //Создаем объект класса Random
+        Scanner scanner = new Scanner(System.in); //создаем объект класса Scanner
+        int N, AMOUNT = 0;
+        double a = 0, b = 12.0; //
         System.out.println("Введите количество точек (N) : ");
-        N = scanner.nextInt();
-        System.out.println("Введите границы a и b:");
-        System.out.print("a: ");
-        a = scanner.nextInt();
-        System.out.println();
-        System.out.print("b: ");
-        b = scanner.nextInt();
+        N = scanner.nextInt(); // Вводим с клавиатуры количество случайных точек
         System.out.println();
 
-        double[] array = new double[N];
-        for (int i = 0; i < array.length; i++){
-           array[i] = random.nextDouble();
+
+        double[] array = new double[N]; //Объявляю массив типа double с размером N
+        for (int i = 0; i < array.length; i++){ //заполнение массива случайными числами
+           array[i] = a + (b-a)*random.nextDouble();
+            AMOUNT += -0.5*array[i]*array[i] + 6*array[i] + 1; //в сумму прибавляем значение g(x) где х - текущее случайное число
         }
 
+        System.out.println("Последовательность случайных чисел:");
         for ( int i = 0; i < array.length; i++ ){
             System.out.println(array[i]);
         }
         System.out.println();
-        System.out.println(function1(array,b,a));
+
+        System.out.println();
+        System.out.println("Результат работы программы");
+        System.out.println((((b - a))/(double)array.length) * AMOUNT); //печатаем на экран значение полученное при вычислении методом интергирования Монте-Карло
+        System.out.println();
+
+
 
     }
 }
