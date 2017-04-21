@@ -18,8 +18,6 @@ public class Program {
 
     public static void main(String[] args){
         char[] charsArray = { '3', '2', '1'};
-        String str = "51";
-
         System.out.println(charsArrayToInteger(charsArray));
 
     }
