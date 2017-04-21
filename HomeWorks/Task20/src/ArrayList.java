@@ -1,23 +1,25 @@
 /**
  * Created by Michael on 03.04.2017.
  */
-public class ArrayList implements List {
+public class ArrayList<T> implements List<T> {
     private static final int MAX_SIZE = 5;
     private int count;
-    private int elements[];
+    private Object elements[];
 
     public ArrayList() {
-        elements = new int[MAX_SIZE];
+       elements = new Object[MAX_SIZE];
     }
 
     public void printElements() {
-        for (int i = 0; i < elements.length; i++){
-            System.out.print(elements[i] + " ");
+        for (int i = 0; i < elements.length; i++) {
+            if (elements[i] != null) {
+                System.out.print(elements[i] + " ");
+            }
         }
     }
 
     @Override
-    public boolean add(int element) {
+    public boolean add(T element) {
         if (count < MAX_SIZE){
             for ( int i = elements.length - 2 ; i >= 0; i--){
                 elements[i + 1] = elements[i];
@@ -32,7 +34,7 @@ public class ArrayList implements List {
         return false;}
     }
 
-    public boolean addToEnd(int element) {
+    public boolean addToEnd(T element) {
         if (count < MAX_SIZE) {
             elements[count] = element;
             count++;
@@ -44,7 +46,7 @@ public class ArrayList implements List {
     }
 
 
-    public boolean insert(int element, int index) {
+    public boolean insert(T element, int index) {
         if ((index < MAX_SIZE) && (index >= 0) &&(count <= MAX_SIZE) ) {
             if (index != elements.length - 1) {
                 for (int i = elements.length - 1; i > index; i--) {
@@ -74,7 +76,7 @@ public class ArrayList implements List {
             return true;
         }
         if (index == elements.length - 1){
-            elements[index] = 0;
+            elements[index] = null;
             System.out.println("Удаление по индексу прошло успешно!");
             return true;
         }
@@ -84,7 +86,7 @@ public class ArrayList implements List {
     }
 
     @Override
-    public int get(int index) {
+    public T get(int index) {
         int temp = -1;
         for (int i = 0; i < elements.length; i ++){
             if (i == index){
@@ -93,16 +95,16 @@ public class ArrayList implements List {
         }
         if (temp != -1){
             System.out.println("Элемент с таким индексом существует!");
-            return elements[index];
+            return (T)elements[index];
         }
         else {
             System.err.println("Элемента с таким индексом не существует");
-            return -1;
+            return null;
         }
     }
 
     @Override
-    public int find(int element){
+    public int find(T element){
         int index = -1;
         for (int i = 0; i < elements.length; i ++){
            if (elements[i] == element){
@@ -122,7 +124,7 @@ public class ArrayList implements List {
     @Override
     public void reverse() {
         for (int i = 0; i < (elements.length/2); i++ ){
-            int temp = elements[elements.length-i-1];
+            T temp = (T)elements[elements.length-i-1];
             elements[elements.length-i-1]=elements[i];
             elements[i]=temp;
         }

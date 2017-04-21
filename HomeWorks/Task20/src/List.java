@@ -1,7 +1,7 @@
 /**
  * Created by Michael on 03.04.2017.
  */
-public interface List {
+public interface List<T> {
 
     /**
      * Добавление элемента в начало списка
@@ -9,24 +9,24 @@ public interface List {
      * @return true - если места хватило и добавление прошло успешно
      */
 
-    boolean add(int element);
+    boolean add(T element);
 
-    boolean addToEnd(int element);
+    boolean addToEnd(T element);
 
-    boolean insert(int element, int index);
+    boolean insert(T element, int index);
 
     boolean removeByIndex(int index);
 
     void printElements();
 
-    int get(int index);
+    T get(int index);
 
     /**
      * Находит элемент по значению
      * @param element элемент, который необходимо найти
      * @return номер элемента
      */
-    int find(int element);
+    int find(T element);
 
     void reverse();
 

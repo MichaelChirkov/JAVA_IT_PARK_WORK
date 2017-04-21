@@ -7,8 +7,7 @@
 
  public static void main(String[] args) {
 
- ArrayList  list;
-  list = new ArrayList();
+ ArrayList list = new ArrayList();
 
   // вставка числа в конец массива
  Scanner scanner = new Scanner(System.in);
@@ -27,6 +26,9 @@
   //x = scanner.nextInt();
   //list.addToEnd(x);
 
+  list.printElements();
+  list.reverse();
+  System.out.println();
   list.printElements();
   /* Блок для проверки функции insert(element, index);
   int k = 0,l = 0;
