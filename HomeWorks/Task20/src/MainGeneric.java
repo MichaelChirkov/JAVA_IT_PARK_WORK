@@ -1,6 +1,7 @@
 /**
  * Created by Michael on 20.04.2017.
  */
+import java.util.Iterator;
 
 public class MainGeneric {
     public static void main(String[] args) {
@@ -15,10 +16,14 @@ public class MainGeneric {
         list2.add(10);
         list2.add(15);
         list2.add(12);
-        list2.printElements();
-        System.out.println();
-        list.printElements();
+        //list2.printElements();
+        //System.out.println();
+       // list.printElements();
+        Iterator<Human> humanIterator = list.iterator();
 
+        for (Human human : list) {
+            System.out.println(human);
+        }
 
     }
 }

@@ -1,10 +1,37 @@
 /**
  * Created by Michael on 03.04.2017.
  */
-public class ArrayList<T> implements List<T> {
+import java.util.Iterator;
+import java.util.Objects;
+
+public class ArrayList<T> implements List<T>, Iterable<T> {
     private static final int MAX_SIZE = 5;
     private int count;
     private Object elements[];
+
+    private class ArrayListIterator implements Iterator<T> {
+        private int current;
+            ArrayListIterator(int beginIndex) {
+                current = beginIndex;
+            }
+
+            @Override
+            public boolean hasNext() {
+                return current < count;
+            }
+
+            @Override
+            public T next() {
+                T value = (T)elements[current];
+                current ++;
+                return value;
+            }
+        }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new ArrayListIterator(0);
+    }
 
     public ArrayList() {
        elements = new Object[MAX_SIZE];
