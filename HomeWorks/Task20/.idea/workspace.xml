@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193dcf06-f20b-41cd-8a15-e1ff0c8f1202" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task21/out/production/Task21/Program.class" afterPath="$PROJECT_DIR$/../Task21/out/production/Task21/Program.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK" afterPath="$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/List.java" afterPath="$PROJECT_DIR$/src/List.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainGeneric.java" afterPath="$PROJECT_DIR$/src/MainGeneric.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task21/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Task21/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task21/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Task21/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
