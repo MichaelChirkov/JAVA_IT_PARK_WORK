@@ -13,6 +13,7 @@ public class MainGeneric {
         list.add(misha);
         list.add(alena);
         list.add(evgenuy);
+        list.1
         list2.add(10);
         list2.add(15);
         list2.add(12);
