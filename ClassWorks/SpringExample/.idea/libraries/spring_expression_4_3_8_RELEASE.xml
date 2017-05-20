@@ -1,0 +1,84 @@
+<component name="libraryTable">
+  <library name="spring-expression-4.3.8.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../LIBS/spring-expression-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../LIBS/spring-context-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../LIBS/spring-beans-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../LIBS/spring-core-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../LIBS/commons-logging-1.2.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../.." />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../Advanced/MonteCarloIntegrationMethod/src" />
+      <root url="file://$PROJECT_DIR$/../../Advanced/TestSystemIO/src" />
+      <root url="file://$PROJECT_DIR$/../../Advanced/WorkWithDB/src" />
+      <root url="file://$PROJECT_DIR$/../DataStorage/src" />
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$/../Task10/src" />
+      <root url="file://$PROJECT_DIR$/../Task11/src" />
+      <root url="file://$PROJECT_DIR$/../../Exam/src" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task1" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task10" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task11" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task12" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task13" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task14" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task15" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task16" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task17/src" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task18/src" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task19/src" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task2" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task20/src" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task21/src" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task22/src" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task3" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task4" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task5" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task6" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task7" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task8" />
+      <root url="file://$PROJECT_DIR$/../../HomeWorks/Task9" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Arrays" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/ArraysAlgo" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Collections/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Compare/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Composition/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/DataStorage/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Dependencies/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Di/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/DigitsSum" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/ExamAnalize/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Exam/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Exceptions/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/ExtendedArrays" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Functions" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/GoodTasks" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Hashes/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/HelloWorld" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Humans/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Inheritance/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/JavaBegin/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/JavaIO/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/JdbcExample/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Lists/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Matrix" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/MergeSort/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/ModuleTesting/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/OOP2/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/OOP/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/ObjectClass/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Procedures" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Recoursive" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Reflection/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Sequences" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Service/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Sorts" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/StaticMembers/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Task10/src" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/Variables" />
+      <root url="file://$PROJECT_DIR$/../../SIDIKOV/JAVA_IT_PARK_WORK/untitled/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
