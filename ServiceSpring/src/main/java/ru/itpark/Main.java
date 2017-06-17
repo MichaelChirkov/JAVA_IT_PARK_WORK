@@ -18,15 +18,16 @@ public class Main {
         context.load("ru.itpark\\context.xml");
         context.refresh();
         UsersService usersService = context.getBean(UsersService.class);
-        User user = new User("minimen", 177);
-        usersService.register(user);
+  /*      User user = new User("minimen", 177);
+        usersService.register(user); */
         User mishaFromBd = usersService.getUserById(9);
         System.out.println(mishaFromBd.getId() + " " + mishaFromBd.getName() + " " + mishaFromBd.getAge());
-
+/*
         List<User> users = usersService.getListOfUsers();
         System.out.println(users);
         usersService.removeUser(14);
         User lena = new User(7, "Lena", 30);
         usersService.update(lena);
+        */
     }
 }

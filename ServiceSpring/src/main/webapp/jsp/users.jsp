@@ -4,6 +4,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Title</title>
     <link href="<c:url value="/css/table-style.css"/>" rel="stylesheet">
     <link href="<c:url value="/css/input-style.css"/>" rel="stylesheet">
@@ -13,7 +14,7 @@
     <%--<% ArrayList<User> userList = (ArrayList<User>) request.getAttribute("users"); %>--%>
     <%--<% for (User user : userList) { %>--%>
     <%--<tr>--%>
-        <%--<td><%=user.getId()%>--%>
+        <%--<td><%=user.getId()%>--%>Lj,
         <%--</td>--%>
         <%--<td><%=user.getName()%>--%>
         <%--</td>--%>

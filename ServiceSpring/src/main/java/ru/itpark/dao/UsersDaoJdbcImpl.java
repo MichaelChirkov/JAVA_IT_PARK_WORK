@@ -19,19 +19,19 @@ public class UsersDaoJdbcImpl implements UsersDao {
 
     //language=SQL
     private final String SQL_INSERT_USER =
-            "INSERT INTO it_park_user(name, age) VALUES(:name, :age)";
+            "INSERT INTO users(name, age) VALUES(:name, :age)";
 
     //language=SQL
     private final String SQL_SELECT_USER_BY_ID =
-            "SELECT * FROM it_park_user WHERE id = :id";
+            "SELECT * FROM users WHERE id = :id";
 
     //language=SQL
     private final String SQL_SELECT_ALL =
-            "SELECT * FROM it_park_user";
+            "SELECT * FROM test_users";
 
     //language=SQL
     private final String SQL_DELETE_USER_BY_ID =
-            "DELETE FROM it_park_user WHERE id = :id";
+            "DELETE FROM users WHERE id = :id";
 
     //language=SQL
     private final String SQL_USER_UPDATE_BY_ID =

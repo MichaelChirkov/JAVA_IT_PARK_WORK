@@ -34,8 +34,8 @@
 
         <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
             <constructor-arg name="username" value="postgres"/>
-            <constructor-arg name="password" value="Zaq12wsx"/>
-            <constructor-arg name="url" value="jdbc:postgresql://localhost:5432/itpark_group"/>
+            <constructor-arg name="password" value="qwerty123"/>
+            <constructor-arg name="url" value="jdbc:postgresql://localhost:5432/ru.itpark"/>
         </bean>
     </beans>
 
