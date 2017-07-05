@@ -27,14 +27,14 @@ public class SuperThread implements Callable {
 
     @Override
     public Integer call() throws Exception {
-        locker.lock();
+       // locker.lock();
         try {
             for (int i = start; i < end; i++) {
                 summary += array[i];
             }
         }
         finally{
-            locker.unlock();
+           // locker.unlock();
         }
         return summary;
     }

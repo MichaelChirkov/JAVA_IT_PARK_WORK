@@ -19,12 +19,12 @@ public class Program {
            for ( int i = 0; i < array.length; i++){
                array[i] = random.nextInt(100);
            }
-           for (int l = 0; l < array.length; l++){
+           /*for (int l = 0; l < array.length; l++){
                System.out.println(array[l]);
                sum += array[l];
            }
         System.out.println("Сумма = " + sum);
-
+            */
            Summary summary = new Summary();
            for (int j = 0; j < k ; j++){
                if ( j == k - 1) {

@@ -25,11 +25,12 @@ public class NewMain {
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(100);
         }
-        for (int l = 0; l < array.length; l++) {
+        /*for (int l = 0; l < array.length; l++) {
             System.out.println(array[l]);
             summ += array[l];
         }
-        System.out.println("Сумма = " + summ);
+        System.out.println("Сумма = " + summ); */
+
 
 
         for (int j = 0; j < k; j++) {
