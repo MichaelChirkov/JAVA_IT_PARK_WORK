@@ -1,0 +1,10 @@
+INSERT INTO theoretic_tasks VALUES ( 1, 1, 'Какие в Java существуют типы данных?', 'Примитивные и ссылочные','Объектные и простые','Простые и составные','Примитивные и ссылочные');
+INSERT INTO theoretic_tasks VALUES ( 2, 1, 'Сколько примитивных типов данных существует в Java?', '10','4','8','8');
+INSERT INTO theoretic_tasks VALUES ( 3, 1, 'Для чего нужны ссылочные переменные?', 'Для доступа к объектам класса','Для перехода','Для указания на примитивный тип данных','Для доступа к объектам класса');
+INSERT INTO theoretic_tasks VALUES ( 4, 1, 'Сколько байт в памяти занимает тип int в Java?', '8','4','2','4');
+INSERT INTO theoretic_tasks VALUES ( 5, 1, 'Какое значение по умолчанию,принимает любая ссылка в Java?', 'null','0','Нет значения','null');
+INSERT INTO theoretic_tasks VALUES ( 6, 1, 'Выберите строчку кода,которая содержит ошибку.<br><pre>int a = 201;<br>byte b = 2017;<br> char c = 'c';</pre>', 'byte b = 2017;','int a = 201;','char c = 'c';','byte b = 2017;');
+INSERT INTO theoretic_tasks VALUES ( 7, 1, 'Сколько байт в памяти занимает тип char в Java?', '2','4','1','2');
+INSERT INTO theoretic_tasks VALUES ( 8, 1, 'Выберите типы данных для работы с плавающей запятой.', 'float, double','float','byte, long','float, double');
+INSERT INTO theoretic_tasks VALUES ( 9, 1, 'Чему будет равна переменная result в конце работы программы. <br><pre>int result, a = 7, b = 2;<br> result = a/b;</pre>', 'Программа не запустится','3','3.5','3');
+INSERT INTO theoretic_tasks VALUES ( 10, 1, 'Чему будет равно выполнение данной операции (?): <br></br><pre> 42&15</pre>', '10','57','31','10');
