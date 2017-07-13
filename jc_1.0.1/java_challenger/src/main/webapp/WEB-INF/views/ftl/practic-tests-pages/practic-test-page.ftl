@@ -26,7 +26,7 @@
         body {
             padding-top: 60px;
             padding-bottom: 40px;
-            background-color: #b9cbff;
+            background-color: #ffc97e;
 
         }
         .sidebar-nav {
@@ -51,10 +51,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="#">Java Challenger</a>
             <div class="nav-collapse collapse">
-
                 <ul class="nav">
+                    <li><h4><a href="#">Java Challenger</a></h4></li>
                     <li><a href="/home">Главная</a></li>
                     <li><a href="/study">Учебные материалы</a></li>
                     <li><a href="/theoretic-tests">Теоретические тесты</a></li>
@@ -85,7 +84,7 @@
         <div class="hero-unit">
 
 
-            <div align="center"><h3><b>Задача №</b>${task.id}</h3></div>
+            <div align="center"><h3><b>Задача №</b>${task.id.id}</h3></div>
             Найдите и исправьте ошибки в коде.<br>
             <form action="/practic-check" method="post">
                 <div><textarea name="answer" id="java-code">${task.question}</textarea></div>
@@ -104,6 +103,10 @@
                 });
 
             </script>
+
+            <div class="progress">
+                <div class="bar" style="width: ${bar}%;"></div>
+            </div>
             <br></br><br></br>
         </div>
     </div>

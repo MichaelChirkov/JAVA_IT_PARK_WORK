@@ -15,4 +15,6 @@ public interface TheoreticTasksService {
 
     public TheoreticTask checkAnswer(String answer, int userId, int themeId, TheoreticTask currentTheoreticTask);
 
+    int getTheoreticComplitedTasksCountForProgressBar(int userId, int themeId);
+
 }

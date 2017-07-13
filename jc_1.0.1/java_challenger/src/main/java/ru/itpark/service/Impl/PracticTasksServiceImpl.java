@@ -50,4 +50,16 @@ public class PracticTasksServiceImpl implements PracticTasksService {
         userAnswers.setPracticAnswerCount(0);
         userAnswersService.updateInfo(userAnswers);
     }
+
+    @Override
+    public String convertAnswer(String answer) {
+        return answer.replace("\n","").replace(" ", "").replace("\r", "");
+    }
+
+    @Override
+    public int getComplitedPracticTasksCountForProgressBar(int userId, int themeId) {
+        UserAnswers userAnswers = userAnswersService.getByUserIdAndThemeId(userId, themeId);
+        int result = (((userAnswers.getPracticTaskLast() - 1) * 100) / (practicTasksDao.getPracticTaskCountByTheme(themeId)));
+        return result;
+    }
 }

@@ -19,7 +19,7 @@
         body {
             padding-top: 40px;
             padding-bottom: 40px;
-            background-color: #b9cbff;
+            background-color: #ffc97e;
         }
 
         .form-signin {

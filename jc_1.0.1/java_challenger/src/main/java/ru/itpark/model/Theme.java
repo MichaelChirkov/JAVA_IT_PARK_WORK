@@ -34,7 +34,7 @@ public class Theme {
     private String text;
 
 
-    @OneToMany
+    /*@OneToMany
     @JoinTable(name = "practic_tasks",
             joinColumns =
             @JoinColumn(name = "theme_id"),
@@ -48,7 +48,7 @@ public class Theme {
             @JoinColumn(name = "theme_id"),
             inverseJoinColumns =
             @JoinColumn(name = "id"))
-    private List<TheoreticTask> theoreticTaskList;
+    private List<TheoreticTask> theoreticTaskList; */
 
 
 }

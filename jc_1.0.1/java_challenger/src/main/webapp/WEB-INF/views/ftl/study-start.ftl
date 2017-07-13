@@ -15,7 +15,7 @@
         body {
             padding-top: 60px;
             padding-bottom: 40px;
-            background-color: #b9cbff;
+            background-color: #ffc97e;
 
         }
         .sidebar-nav {
@@ -82,7 +82,7 @@
         <div class="span3">
             <div class="well sidebar-nav">
 
-                <ul class="nav nav-list">
+                <ul class="nav nav-tabs nav-stacked">
                     <li class="nav-header">Разделы</li>
                 <#list themes as theme>
                 <!--    <li><a href="/data_types">Типы данных</a></li>

@@ -15,7 +15,7 @@
         body {
             padding-top: 60px;
             padding-bottom: 40px;
-            background-color: #b9cbff;
+            background-color: #ffc97e;
 
         }
         .sidebar-nav {
@@ -72,7 +72,7 @@
     <div class="span6 offset3">
         <div class="hero-unit">
             <div align="center">
-                <h2><b>Вопрос номер </b> ${task.id}</h2>
+                <h2><b>Вопрос </b> ${task.id.id}</h2>
                 ${task.question}
 
             </div>
@@ -101,6 +101,9 @@
                 </label>
                 <div align="center"><p><input type="submit" value="Проверить" /></p></div>
             </form>
+            <div class="progress">
+                <div class="bar" style="width: ${bar}%;"></div>
+            </div>
             <br></br><br></br>
         </div>
     </div>

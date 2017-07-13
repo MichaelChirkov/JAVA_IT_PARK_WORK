@@ -10,12 +10,16 @@
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap1.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap-awesome.min.css" rel="stylesheet">
+
     <link rel="icon" type="image/x-icon" href="css/fav.ico">
     <style type="text/css">
         body {
             padding-top: 40px;
             padding-bottom: 40px;
-            background-color: #b9cbff;
+            background-color: #ffc97e;
         }
 
         .form-signin {

@@ -17,12 +17,8 @@ import java.util.List;
 @EqualsAndHashCode
 @Table(name="practic_tasks")
 public class PracticTask {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
-
-    @Column( name = "theme_id")
-    private int themeId;
+    @EmbeddedId
+    private PracticTaskPK id;
 
     @Column
     private String question;

@@ -69,6 +69,7 @@ public class PracticTestController {
         hs.setAttribute("selected-theme-id", themeId);
         hs.setAttribute("start-time", startTestTime);
         hs.setAttribute("currentTask", lastPracticTask);
+        model.addAttribute("bar", practicTasksService.getComplitedPracticTasksCountForProgressBar(user.getId(), themeId));
         model.addAttribute("user", user);
         model.addAttribute("task", lastPracticTask);
         return "practic-tests-pages\\practic-test-page";
@@ -78,7 +79,7 @@ public class PracticTestController {
     public String checkAnswer(Principal principal, HttpServletRequest req, HttpSession hs, Model model) {
         String answer = req.getParameter("answer");
         User user = usersService.getByUsername(principal.getName());
-        PracticTask nextPracticTask = practicTasksService.checkAnswer(answer, user.getId(), (int) hs.getAttribute("selected-theme-id"), (PracticTask) hs.getAttribute("currentTask"));
+        PracticTask nextPracticTask = practicTasksService.checkAnswer(practicTasksService.convertAnswer(answer), user.getId(), (int) hs.getAttribute("selected-theme-id"), (PracticTask) hs.getAttribute("currentTask"));
         if (nextPracticTask == null) {
             Date startDate = (Date) hs.getAttribute("start-time");
             Date endDate = new Date();
@@ -91,6 +92,7 @@ public class PracticTestController {
             return "practic-tests-pages\\practic-test-end";
         }
         hs.setAttribute("currentTask", nextPracticTask);
+        model.addAttribute("bar", practicTasksService.getComplitedPracticTasksCountForProgressBar(user.getId(), (int) hs.getAttribute("selected-theme-id")));
         model.addAttribute("user", user);
         model.addAttribute("task", nextPracticTask);
         return "practic-tests-pages\\practic-test-page";

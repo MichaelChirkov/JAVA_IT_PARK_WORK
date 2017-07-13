@@ -62,10 +62,11 @@ public class TheoreticTestController {
         User user = usersService.getByUsername(principal.getName());
         theoreticTasksService.dropPrevResults(user.getId(), themeId);
         TheoreticTask lastTheoreticTask = theoreticTasksService.getByIdAndThemeId(
-                userAnswersService.getLastPracticTask(user.getId(), themeId), themeId);
+                userAnswersService.getLastTheoreticTask(user.getId(), themeId), themeId);
         hs.setAttribute("selected-theme-id", themeId);
         hs.setAttribute("start-time", startTestTime);
         hs.setAttribute("currentTask", lastTheoreticTask);
+        model.addAttribute("bar", theoreticTasksService.getTheoreticComplitedTasksCountForProgressBar(user.getId(), (int) hs.getAttribute("selected-theme-id")));
         model.addAttribute("user", user);
         model.addAttribute("task", lastTheoreticTask);
         return "theoretic-tests-pages\\theoretic-test-page";
@@ -89,6 +90,7 @@ public class TheoreticTestController {
             return "theoretic-tests-pages\\theoretic-test-end";
         }
         hs.setAttribute("currentTask", nextTheoreticTask);
+        model.addAttribute("bar", theoreticTasksService.getTheoreticComplitedTasksCountForProgressBar(user.getId(), (int) hs.getAttribute("selected-theme-id")));
         model.addAttribute("user", user);
         model.addAttribute("task", nextTheoreticTask);
         return "theoretic-tests-pages\\theoretic-test-page";

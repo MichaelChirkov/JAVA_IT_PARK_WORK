@@ -15,7 +15,7 @@
         body {
             padding-top: 60px;
             padding-bottom: 40px;
-            background-color: #b9cbff;
+            background-color: #ffc97e;
         }
         .sidebar-nav {
             padding: 9px 0;
@@ -85,9 +85,8 @@
         </div><!--/span-->
         <div class="span9">
             <div class="hero-unit">
-                <h1>Рейтинг пользователей</h1>
+                <h2>Рейтинг пользователей</h2>
                 <table class="table table-striped">
-
                     <thead>
                     <tr>
                         <th>Никнейм</th>

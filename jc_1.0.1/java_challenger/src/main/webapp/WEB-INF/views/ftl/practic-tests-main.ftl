@@ -15,7 +15,7 @@
         body {
             padding-top: 60px;
             padding-bottom: 40px;
-            background-color: #b9cbff;
+            background-color: #ffc97e;
         }
 
         .sidebar-nav {

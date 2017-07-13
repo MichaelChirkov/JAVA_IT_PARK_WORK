@@ -49,4 +49,11 @@ public class TheoreticTasksServiceImpl implements TheoreticTasksService {
     public int getTheoreticTaskCountByTheme(int themeId) {
         return theoreticTasksDao.getTheoreticTaskCountByTheme(themeId);
     }
+
+    @Override
+    public int getTheoreticComplitedTasksCountForProgressBar(int userId, int themeId) {
+        UserAnswers userAnswers = userAnswersService.getByUserIdAndThemeId(userId, themeId);
+        int result = (((userAnswers.getTheoreticTaskLast() - 1) * 100) / (theoreticTasksDao.getTheoreticTaskCountByTheme(themeId)));
+        return result;
+    }
 }

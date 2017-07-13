@@ -14,4 +14,6 @@ public interface PracticTasksService {
     int getPracticTaskCountByTheme(int themeId);
 
     public void dropPrevResults(int userId, int themeId);
+    String convertAnswer (String answer);
+    int getComplitedPracticTasksCountForProgressBar(int userId, int themeId);
 }

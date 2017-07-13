@@ -18,12 +18,14 @@ import java.util.List;
 @Table(name="theoretic_tasks")
 public class TheoreticTask {
 
-    @Id
+    /*@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column( name = "theme_id")
-    private int themeId;
+    private int themeId; */
+    @EmbeddedId
+    private TheoreticTaskPK id;
 
     @Column
     private String question;
